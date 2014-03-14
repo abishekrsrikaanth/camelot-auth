@@ -13,6 +13,12 @@ Camelot-Auth is provided as a Composer package which can be installed by adding 
 
 ```javascript
 {
+	"repositories": [
+	        {
+	            "type": "vcs",
+	            "url": "https://github.com/abishekrsrikaanth/camelot-auth"
+        	}
+    	],
 	"require": {
 		"t4s/camelot-auth": "*"
 	}
